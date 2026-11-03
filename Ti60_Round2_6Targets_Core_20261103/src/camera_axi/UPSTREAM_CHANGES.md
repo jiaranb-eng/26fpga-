@@ -1,0 +1,1 @@
+The only upstream RTL adaptation changes arbiter configuration from round robin to fixed priority. The existing upstream arbiter implements both modes. DVP port zero receives priority over Canny render bursts to protect its non-backpressurable capture FIFOs. All protocol state machines are unchanged. This configuration requires full concurrent image/FPS and timing validation.
