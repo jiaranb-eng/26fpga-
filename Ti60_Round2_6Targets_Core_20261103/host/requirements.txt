@@ -1,0 +1,3 @@
+# Run start_jtag_console.bat with the existing Efinity Python environment.
+# Uses its bundled pyftdi/pyusb/libusb; no pyserial or extra UART adapter.
+# Do not pip-upgrade the vendor Python environment for this application.

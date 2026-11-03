@@ -1,0 +1,54 @@
+{
+    "args": [
+        "-o",
+        "Canny_Row_Read_FIFO",
+        "--base_path",
+        "C:\\Users\\PC\\Desktop\\Ti60_Canny_Delivery\\common\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory",
+            "name": "efx_fifo_top",
+            "version": "8.0"
+        }
+    ],
+    "conf": {},
+    "output": {
+        "external_source_source": [
+            "Canny_Row_Read_FIFO\\Canny_Row_Read_FIFO.sv",
+            "Canny_Row_Read_FIFO\\Canny_Row_Read_FIFO_define.svh",
+            "Canny_Row_Read_FIFO\\Canny_Row_Read_FIFO_tmpl.vhd",
+            "Canny_Row_Read_FIFO\\Canny_Row_Read_FIFO_tmpl.sv"
+        ],
+        "external_example_example": [
+            "Canny_Row_Read_FIFO\\T20F256_devkit\\fifo_demo.peri.xml",
+            "Canny_Row_Read_FIFO\\T20F256_devkit\\fifo_demo.xml",
+            "Canny_Row_Read_FIFO\\T20F256_devkit\\fifo_demo_top.v",
+            "Canny_Row_Read_FIFO\\T20F256_devkit\\fifo_demo_T20.sdc",
+            "Canny_Row_Read_FIFO\\T20F256_devkit\\efx_symmetric_width_fifo_top.sv",
+            "Canny_Row_Read_FIFO\\T20F256_devkit\\Canny_Row_Read_FIFO.sv",
+            "Canny_Row_Read_FIFO\\T20F256_devkit\\Canny_Row_Read_FIFO_define.svh"
+        ],
+        "external_example_2": [
+            "Canny_Row_Read_FIFO\\Ti60F225_devkit\\fifo_demo.peri.xml",
+            "Canny_Row_Read_FIFO\\Ti60F225_devkit\\fifo_demo.xml",
+            "Canny_Row_Read_FIFO\\Ti60F225_devkit\\fifo_demo_top.v",
+            "Canny_Row_Read_FIFO\\Ti60F225_devkit\\fifo_demo_Ti60.sdc",
+            "Canny_Row_Read_FIFO\\Ti60F225_devkit\\efx_symmetric_width_fifo_top.sv",
+            "Canny_Row_Read_FIFO\\Ti60F225_devkit\\Canny_Row_Read_FIFO.sv",
+            "Canny_Row_Read_FIFO\\Ti60F225_devkit\\Canny_Row_Read_FIFO_define.svh"
+        ],
+        "external_testbench_testbench": [
+            "Canny_Row_Read_FIFO\\Testbench\\fifo_tb.sv",
+            "Canny_Row_Read_FIFO\\Testbench\\xrun.sh",
+            "Canny_Row_Read_FIFO\\Testbench\\msim.sh",
+            "Canny_Row_Read_FIFO\\Testbench\\flist",
+            "Canny_Row_Read_FIFO\\Testbench\\modelsim.do",
+            "Canny_Row_Read_FIFO\\Testbench\\Canny_Row_Read_FIFO.sv",
+            "Canny_Row_Read_FIFO\\Testbench\\Canny_Row_Read_FIFO_define.svh"
+        ]
+    },
+    "ooc_synthesis": {},
+    "sw_version": "2025.1.110.5.9",
+    "generated_date": "2026-09-06T14:36:59.216736+00:00"
+}
